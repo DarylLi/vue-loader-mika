@@ -1,5 +1,6 @@
 {
   "name": "vue-loader-mika",
+  "author": "Daryl",
   "version": "13.3.0.1",
   "description": "Vue single-file component loader for Webpack",
   "main": "index.js",
@@ -16,7 +17,6 @@
     "index.js",
     "lib"
   ],
-  "author": "Evan You",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/vuejs/vue-loader/issues"
