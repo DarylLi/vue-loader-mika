@@ -1,14 +1,20 @@
+# vue-loader-mika
+
+> this loader is used for the project mixins vue2 & vue3, and just one html file to upload two version entries, so you can use this loader to handle the oldest version of vue (as 2.7.16)
+
 # vue-loader [![Build Status](https://circleci.com/gh/vuejs/vue-loader/tree/master.svg?style=shield)](https://circleci.com/gh/vuejs/vue-loader/tree/master) [![Windows Build status](https://ci.appveyor.com/api/projects/status/8cdonrkbg6m4k1tm/branch/master?svg=true)](https://ci.appveyor.com/project/yyx990803/vue-loader/branch/master) [![npm package](https://img.shields.io/npm/v/vue-loader.svg?maxAge=2592000)](https://www.npmjs.com/package/vue-loader)
 
 > Vue.js component loader for [Webpack](https://webpack.js.org/).
 
-<p align="center">
-  <img width="809px" src="https://raw.githubusercontent.com/vuejs/vue-syntax-highlight/master/samples/screenshot.png">
-</p>
+**NOTE: the master branch (9.0+) only works with Vue 2.x. For usage with Vue 1.x, see the [8.x branch](https://github.com/vuejs/vue-loader/tree/8.x).**
+
+It allows you to write your components in this format:
+
+![screenshot](http://blog.evanyou.me/images/vue-component.png)
 
 The best way to get started is with [vue-cli](https://github.com/vuejs/vue-cli):
 
-``` js
+```js
 npm install -g vue-cli
 vue init webpack-simple hello
 cd hello

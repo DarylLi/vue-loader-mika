@@ -1,6 +1,6 @@
 {
-  "name": "vue-loader",
-  "version": "13.7.1",
+  "name": "vue-loader-mika",
+  "version": "13.3.0.1",
   "description": "Vue single-file component loader for Webpack",
   "main": "index.js",
   "repository": {
@@ -94,9 +94,9 @@
     "stylus-loader": "^3.0.1",
     "sugarss": "^1.0.0",
     "url-loader": "^0.6.2",
-    "vue": "^2.5.0",
-    "vue-server-renderer": "^2.5.0",
-    "vue-template-compiler": "^2.5.0",
-    "webpack": "^3.7.1"
+    "vue2": "npm:vue@^2.7.16",
+    "vue-server-renderer": "^2.4.4",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.4.1"
   }
 }
