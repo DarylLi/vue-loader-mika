@@ -53,7 +53,9 @@
     "source-map": "^0.6.1",
     "vue-hot-reload-api": "^2.2.0",
     "vue-style-loader": "^3.0.0",
-    "vue-template-es2015-compiler": "^1.6.0"
+    "vue-template-es2015-compiler": "^1.6.0",
+    "vue2": "npm:vue@^2.7.16",
+    "de-indent": "^1.0.2"
   },
   "peerDependencies": {
     "css-loader": "*",
@@ -94,7 +96,6 @@
     "stylus-loader": "^3.0.1",
     "sugarss": "^1.0.0",
     "url-loader": "^0.6.2",
-    "vue2": "npm:vue@^2.7.16",
     "vue-server-renderer": "^2.4.4",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.4.1"
